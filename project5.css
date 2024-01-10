@@ -24,6 +24,20 @@ html,body
     height:100%;
     width:100%
 }
+.cursor
+{
+   
+    height:2vh;
+    width:2vh;
+    border-radius: 50%;
+    top:0%;
+    right:0%;
+    color:white;
+    background-color: white;
+    position: absolute;
+    z-index: 40;
+    
+}
 
 .side-scroller
 {
@@ -59,7 +73,8 @@ html,body
 .main
 {
     height:100%;
-    width:100%
+    width:100%;
+    position: relative;
 }
 
 .page1
@@ -67,6 +82,7 @@ html,body
     height:100vh;
     width:100vw;
     background-color: black;
+    position: relative;
     
     
 }
@@ -82,6 +98,7 @@ nav{
     font-family: a;
     position: fixed;
     z-index: 20;
+    position: relative;
   
 }
 
@@ -216,6 +233,7 @@ border-top:2px solid white;
 display: flex;
 align-items: center;
 justify-content: space-between;
+position: relative;
 
 }
 
@@ -229,6 +247,7 @@ justify-content: space-between;
     display: flex;
 align-items: center;
 justify-content: space-between;
+position: relative;
 }
 
 #three
@@ -241,6 +260,7 @@ justify-content: space-between;
     display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 #one>h1{
@@ -297,3 +317,59 @@ justify-content: space-between;
     padding:10px 30px;
     color:rgb(163, 163, 163);
 }
+
+.page3
+{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    position: relative;
+}
+
+.page3>img{
+    position: relative;
+    height:30vh;
+    width:30vh;
+    border-radius: 50%;
+    top:25%;
+    left:50%
+}
+
+.page3>h1{
+color:white;
+position:relative;
+bottom:4%;
+left:67%;
+font-family: b;
+}
+
+.page3>p{
+    color:white;
+    width:20%;
+    position:relative;
+    bottom:4%;
+    left:67%;
+    font-family: c;
+    font-weight: 100;
+}
+
+.page3>h3{
+    color:white;
+    position:relative;
+    font-size: 3vh;
+    top:20%;
+    left:7%;
+    font-family: b;
+    }
+    
+
+    .page3>h4{
+        color:white;
+        position:relative;
+        font-size: 3vh;
+        top:12%;
+        left:7%;
+        font-family: b;
+        color:rgb(163, 163, 163);
+        }
+        
