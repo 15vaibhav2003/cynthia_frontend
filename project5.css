@@ -1,0 +1,299 @@
+ @font-face {
+    font-family: a;
+    src: url(./GeneralSans-Extralight.otf);
+ }
+
+ @font-face {
+    font-family: b;
+    src: url(./GeneralSans-Medium.otf);
+ }
+
+ @font-face {
+    font-family:c ;
+    src: url(./GeneralSans-Bold.otf);
+ }
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box
+}
+
+html,body
+{
+    height:100%;
+    width:100%
+}
+
+.side-scroller
+{
+    top:40%;
+    left:95.6%;
+    height:22%;
+    width:4%;
+    background-color: aliceblue;
+    position:fixed;
+    z-index: 100;
+}
+
+.side-scroller>h1
+{
+    padding:3px 20px;
+    font-family: b;
+    font-weight: 400;
+}
+.side-scroller>h2{
+    position: relative;
+    text-align: end;
+}
+
+.vertical-text {
+    font-family: b;
+    font-weight: 400;
+    font-size: 2.3vh;
+    padding: 55px 25px;
+    writing-mode: vertical-rl; /* 'rl' stands for right-to-left, you can use 'lr' for left-to-right */
+}
+
+
+.main
+{
+    height:100%;
+    width:100%
+}
+
+.page1
+{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    
+    
+}
+
+nav{
+     background-color:black; 
+    height:10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px;
+    font-family: a;
+    position: fixed;
+    z-index: 20;
+  
+}
+
+nav>h2{
+    font-size: 3.6vh;
+    color:rgb(246, 246, 246);
+    font-family: a;
+    }
+
+nav>button{
+    height:3.6vh;
+    font-size: 2vh;
+    width: 3.6vw;
+    color:rgb(246, 246, 246);
+    background-color:transparent;
+    border-color: transparent;
+}
+
+.remaing-part
+{ /* background-color: aqua; */
+    height:100vh;  
+}
+.remaing-part>h1{
+font-size:20vh;
+    color:rgb(163, 163, 163);
+    position: relative;
+    top:20%;
+    left:3%;
+    font-weight: 100;
+    padding:5px 30px;
+    font-family:b;
+
+}
+
+.remaing-part>h2{
+    color:rgb(163, 163, 163);
+    position: relative;
+    font-size:20vh;
+    top:8%;
+     left:16%;
+     font-weight: 100;
+    font-family: b;
+    padding:10px 20px
+}
+
+.remaing-part>h5{
+    position: relative;
+    color:white;
+    top:3%;
+    left:58%;
+    font-size: 1.5vh;
+    font-family: b;
+}
+
+.remaing-part>h3{
+    position: relative;
+    color:white;
+    top:32.3%;
+    left:1%;
+    font-size: 1.9vh;
+    font-family: b;
+    font-weight: 800;
+}
+
+.remaing-part>h4{
+    position: relative;
+    color:white;
+    top:30.2%;
+    left:30%;
+    
+    font-family: b;
+    font-weight: 600;
+}
+
+.remaing-part>h6{
+    position: relative;
+    color:white;
+    top:22%;
+    left:80%;
+    font-size: 2vh;
+    font-family: b;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.first
+{
+    position:relative;
+    left:89%;
+    top:23%;
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color:rgb(163, 163, 163);
+    border:none;
+}
+
+
+.second
+{
+    position:relative;
+    left:89%;
+    top:23%;
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color:rgb(163, 163, 163);
+    border: none;
+}
+
+.page2
+{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+#one
+{
+    height:30%;
+    width:100%;
+/* background-color:blanchedalmond; */
+border-bottom:2px solid white;
+border-top:2px solid white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+#two
+{
+    height:30%;
+    width:100%;
+    position: relative;
+    /* background-color: aqua; */
+    border-bottom:2px solid white;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#three
+{
+    height:30%;
+    width:100%;
+    position: relative;
+    /* background-color:green; */
+    border-bottom:2px solid white;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#one>h1{
+    color:white;
+    font-family:b;
+    font-size:7vw;
+  font-weight: 100;
+    padding:10px 30px;
+    color:rgb(163, 163, 163);
+}
+
+#one>h4{
+    color:white;
+    font-family:b;
+    font-size:3vh;
+  font-weight: 100;
+    padding:10px 30px;
+    color:rgb(163, 163, 163);
+}
+
+#two>h1{
+    color:white;
+    font-family:b;
+    font-size:7vw;
+  font-weight: 100;
+    padding:10px 30px;
+    color:rgb(163, 163, 163);
+}
+
+#two>h4{
+    color:white;
+    font-family:b;
+    font-size:3vh;
+  font-weight: 100;
+    padding:10px 30px;
+    color:rgb(163, 163, 163);
+}
+
+
+#three>h1{
+    color:white;
+    font-family:b;
+    font-size:7vw;
+    padding:10px 30px;
+    color:rgb(163, 163, 163);
+  font-weight: 100;
+}
+
+#three>h4{
+    color:white;
+    font-family:b;
+    font-size:3vh;
+  font-weight: 100;
+    padding:10px 30px;
+    color:rgb(163, 163, 163);
+}
