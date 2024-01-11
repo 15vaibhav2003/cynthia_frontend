@@ -51,6 +51,8 @@ justify-content: center;
     background-color: white;
     position: fixed;
     z-index: 40;
+    transition:background-image 0.5s ;
+    background-position: center;
     
 }
 
@@ -58,7 +60,7 @@ justify-content: center;
 {
     top:40%;
     left:95.6%;
-    height:22%;
+    height:23%;
     width:4%;
     background-color: aliceblue;
     position:fixed;
@@ -72,7 +74,7 @@ justify-content: center;
     font-weight: 400;
 }
 .side-scroller>h2{
-    position: relative;
+    position:relative;  
     text-align: end;
 }
 
@@ -87,9 +89,8 @@ justify-content: center;
 
 .main
 {
-    height:100%;
     width:100%;
-    position: relative;
+    position:relative;  
 }
 
 .page1
@@ -97,14 +98,14 @@ justify-content: center;
     height:100vh;
     width:100vw;
     background-color: black;
-    position: relative;
+    
     
     
 }
 
 nav{
      background-color:black; 
-    height:10%;
+    height:5%;
     width:100%;
     display: flex;
     align-items: center;
@@ -112,8 +113,8 @@ nav{
     padding:0px 30px;
     font-family: a;
     position: fixed;
-    z-index: 20;
-    position: relative;
+    z-index: 50;
+
   
 }
 
@@ -139,7 +140,7 @@ nav>button{
 .remaing-part>h1{
 font-size:20vh;
     color:rgb(163, 163, 163);
-    position: relative;
+    position:relative;  
     top:20%;
     left:3%;
     font-weight: 100;
@@ -150,7 +151,7 @@ font-size:20vh;
 
 .remaing-part>h2{
     color:rgb(163, 163, 163);
-    position: relative;
+    position:relative;  
     font-size:20vh;
     top:8%;
      left:16%;
@@ -160,7 +161,7 @@ font-size:20vh;
 }
 
 .remaing-part>h5{
-    position: relative;
+    position:relative;  
     color:white;
     top:3%;
     left:58%;
@@ -169,7 +170,7 @@ font-size:20vh;
 }
 
 .remaing-part>h3{
-    position: relative;
+    position:relative;  
     color:white;
     top:32.3%;
     left:1%;
@@ -179,7 +180,7 @@ font-size:20vh;
 }
 
 .remaing-part>h4{
-    position: relative;
+    position:relative;  
     color:white;
     top:30.2%;
     left:30%;
@@ -189,7 +190,7 @@ font-size:20vh;
 }
 
 .remaing-part>h6{
-    position: relative;
+    position:relative;  
     color:white;
     top:22%;
     left:80%;
@@ -234,7 +235,7 @@ font-size:20vh;
     background-color: black;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position:relative;  
     
 }
 
@@ -248,7 +249,7 @@ border-top:2px solid white;
 display: flex;
 align-items: center;
 justify-content: space-between;
-position: relative;
+position:relative;  
 
 }
 
@@ -256,26 +257,26 @@ position: relative;
 {
     height:30%;
     width:100%;
-    position: relative;
+    position:relative;  
     /* background-color: aqua; */
     border-bottom:2px solid white;
     display: flex;
 align-items: center;
 justify-content: space-between;
-position: relative;
+position:relative;  
 }
 
 #three
 {
     height:30%;
     width:100%;
-    position: relative;
+    position:relative;  
     /* background-color:green; */
     border-bottom:2px solid white;
     display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position:relative;  
 }
 
 #one>h1{
@@ -290,7 +291,7 @@ position: relative;
 #one>h4{
     color:white;
     font-family:b;
-    font-size:3vh;
+    font-size:2vh;
   font-weight: 100;
     padding:10px 30px;
     color:rgb(163, 163, 163);
@@ -308,7 +309,7 @@ position: relative;
 #two>h4{
     color:white;
     font-family:b;
-    font-size:3vh;
+    font-size:2vh;
   font-weight: 100;
     padding:10px 30px;
     color:rgb(163, 163, 163);
@@ -327,7 +328,7 @@ position: relative;
 #three>h4{
     color:white;
     font-family:b;
-    font-size:3vh;
+    font-size:2vh;
   font-weight: 100;
     padding:10px 30px;
     color:rgb(163, 163, 163);
@@ -338,11 +339,11 @@ position: relative;
     height:100vh;
     width:100vw;
     background-color: black;
-    position: relative;
+    position:relative;  
 }
 
 .page3>img{
-    position: relative;
+    position:relative;  
     height:30vh;
     width:30vh;
     border-radius: 50%;
@@ -387,4 +388,37 @@ font-family: b;
         font-family: b;
         color:rgb(163, 163, 163);
         }
-        
+
+#one:hover h1{
+    opacity:0.5;
+    transform: translateX(100px) scale(1.2);
+    transition:0.5s
+}
+
+#one:hover h4{
+    opacity:0.5;
+    transform: translateX(-50px) scale(1.2);
+    transition:0.5s
+}
+#two:hover h1{
+    opacity:0.5;
+    transform: translateX(50px) scale(1.2);
+    transition:0.5s
+}
+
+#two:hover h4{
+    opacity:0.5;
+    transform: translateX(-50px) scale(1.2);
+    transition:0.5s
+}
+
+#three:hover h1{
+    opacity:0.5;
+    transform: translateX(50px) scale(1.2);
+    transition:0.5s
+}
+#three:hover h4{
+    opacity:0.5;
+    transform: translateX(-50px) scale(1.2);
+    transition:0.5s
+}
