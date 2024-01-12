@@ -122,6 +122,8 @@ tl.from([".page1>.remaing-part>button"],
 })
 
 
+
+
 // gsap.from("#one>h1",
 // {
 // y:300,
@@ -179,6 +181,7 @@ console.log("Image path:", att);
 cursor.style.height="500px";
 cursor.style.width="500px";
 cursor.style.borderRadius="0";
+cursor.style.rotate="30px"
 cursor.style.backgroundImage=`url(${att})`
 })
 
@@ -204,6 +207,7 @@ console.log("Image path:", att);
 cursor.style.height="500px";
 cursor.style.width="500px";
 cursor.style.borderRadius="0";
+cursor.style.rotate="30px"
 cursor.style.backgroundImage=`url(${att})`
 })
 
@@ -229,6 +233,8 @@ console.log("Image path:", att);
 cursor.style.height="500px";
 cursor.style.width="500px";
 cursor.style.borderRadius="0";
+cursor.style.transformX= "rotate(10deg)";
+cursor.style.transformY= "rotate(10deg)";
 cursor.style.backgroundImage=`url(${att})`
 })
 

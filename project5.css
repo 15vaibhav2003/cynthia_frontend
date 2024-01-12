@@ -422,3 +422,195 @@ font-family: b;
     transform: translateX(-50px) scale(1.2);
     transition:0.5s
 }
+
+.page3>h3:hover 
+{
+    text-decoration: underline;
+}
+
+@media(max-width:500px)
+{
+
+    nav
+    {
+        padding:10px 
+    }
+
+    nav>h2
+    {
+        font-size: 2vh;
+        font-family: b;
+    }
+
+    nav>button
+    {
+        font-size: 2vh;
+        font-family: b;
+        padding:0px 300px
+    }
+
+    .remaing-part>h1
+    {
+        font-size: 6vh;
+        top:35%;
+        left:0.2%;
+        padding:3vh
+    }
+
+    .remaing-part>h2
+    {
+        font-size: 7vh;
+        top:28%;
+        left:14%
+    }
+
+    .remaing-part>h5
+    {
+        font-size: 2vh;
+        top:25%;
+        left:58%
+    }
+
+    .side-scroller{
+        display:none;
+        left:86%;
+        width:13vw;
+        height:25vh
+    }
+
+    .side-scroller>h1
+    {
+      font-family: b;
+      padding:0px 13px
+      
+    }
+
+    .side-scroller>h1
+    {
+        font-family: b;
+        padding:0px 15px
+    }
+
+    .remaing-part>h6
+    {
+        display:none;
+    }
+
+  
+
+    .remaing-part>button
+    {
+        display:none
+      
+    }
+
+    .remaing-part>h3
+    {
+        font-size: 1.3vh;
+        top:61.6%;
+      
+    }
+
+
+    .remaing-part>h4
+    {    
+        font-size: 1.3vh;
+        top:60%;
+        left:62%;
+        font-family:b;
+        
+    }
+
+    .page3>img {
+      height:40vh;
+      width:40vh;
+      top:28%;
+      left:10%;
+    };
+
+    .page3>img {
+        height:40vh;
+        width:40vh;
+        top:13%;
+        left:10%;
+      };
+
+ .page3>p{
+    left:13%;
+    top:15%;
+    width:80%
+ }
+
+ .page3>h1{
+    left:13%;
+    top:15%;
+    width:80%
+ }
+
+ .page3>h3{
+   display:none;
+ }
+
+ .page3>h4{
+    display:none;
+ }
+
+ .cursor
+ {
+    display:none
+ }
+
+
+ #one:hover h1{
+    opacity:0.5;
+    transform: translateX(1px);
+    transition:0.5s
+}
+
+
+#one:hover h4{
+    opacity:0.5;
+    transform: translateX(-1px);
+    transition:0.5s
+}
+
+
+#two:hover h1{
+    opacity:0.5;
+    transform: translateX(1px);
+    transition:0.5s
+}
+
+#two:hover h4{
+    opacity:0.5;
+    transform: translateX(-1px);
+    transition:0.5s
+}
+
+#three:hover h1{
+    opacity:0.5;
+    transform: translateX(1px);
+    transition:0.5s
+}
+
+#three:hover h4{
+    opacity:0.5;
+    transform: translateX(-1px);
+    transition:0.5s
+}
+
+.page3>img{
+    position:relative;  
+    height:30vh;
+    width:30vh;
+    border-radius: 50%;
+    top:8%;
+    left:%
+}
+
+.page3>p{
+    left:13%;
+    top:15%;
+    width:80%
+ }
+}
